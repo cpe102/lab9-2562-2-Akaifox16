@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
     ofstream cheer;
-    cheer.open("cheerbookcopy.txt");
+    cheer.open("cheerbook_copy.txt");
     cheer << "-------------------- SOTUS ---------------------\n";    
     ifstream book;
     book.open("cheerbook.txt");
